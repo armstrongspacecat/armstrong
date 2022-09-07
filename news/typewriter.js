@@ -9,19 +9,19 @@ var textIndex = 0;
 typing(textIndex, textArr[textIndex]); 
 
 function typing(textIndex, text) {
-    var charIndex = 0; 
+    var charIndex = 1; 
     var maxCharIndex = text.length - 1; 
     
     var typeInterval = setInterval(function () {
         span.innerHTML += text[charIndex]; 
         if (charIndex == maxCharIndex) {
             clearInterval(typeInterval);
-            setTimeout(function() { deleting(textIndex, text) }, sBetweenWord * 1000); 
+            setTimeout(function() { deleting(textIndex, text) }, sBetweenWord * 100); 
             
         } else {
             charIndex += 1; 
         }
-    }, sPerChar * 1000); 
+    }, sPerChar * 100); 
 }
 
 function deleting(textIndex, text) {
@@ -33,9 +33,9 @@ function deleting(textIndex, text) {
         if (charIndex == minCharIndex) {
             clearInterval(typeInterval);
             textIndex + 1 == maxTextIndex ? textIndex = 0 : textIndex += 1; 
-            setTimeout(function() { typing(textIndex, textArr[textIndex]) }, sBetweenWord * 1000); 
+            setTimeout(function() { typing(textIndex, textArr[textIndex]) }, sBetweenWord * 100); 
         } else {
             charIndex -= 1; 
         }
-    }, sPerChar * 1000); 
+    }, sPerChar * 100); 
 }
