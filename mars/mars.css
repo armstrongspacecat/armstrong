@@ -1,25 +1,8 @@
-@font-face { font-family: 'Pixeled'; src: url("../fonts/Pixeled.ttf"); }
-@font-face { font-family: 'Romochka'; src: url("../fonts/Romochka.otf"); }
-
 .ShareTechMono{
     font-family: 'Share Tech Mono', monospace;
     font-size: 14;
+    color: #FE3E3E;
 }
-.Pixeled{
-    font-family:'Pixeled';
-    font-size: 14;
-}
-.Leftmenu{
-    font-family:'Romochka';
-    font-size: 16;
-    text-transform: uppercase;
-    font-weight: 600;
-    text-shadow: 0px 2px 1px #000000;}
-a.Leftmenu:link {COLOR: #ffffff; TEXT-DECORATION: none;}
-a.Leftmenu:active {COLOR: #FF8800; TEXT-DECORATION: underline;}
-a.Leftmenu:visited {COLOR: #FF8800; TEXT-DECORATION: underline;}
-a.Leftmenu:hover {COLOR: #FF8800; TEXT-DECORATION: underline;}
-
 .text--glitch {
   margin: 0;
   color: white;
@@ -35,6 +18,7 @@ a.Leftmenu:hover {COLOR: #FF8800; TEXT-DECORATION: underline;}
   
   animation: glitch 525ms infinite;
 }
+
 .text--glitch::before, 
 .text--glitch::after {
   content: attr(data-text);
