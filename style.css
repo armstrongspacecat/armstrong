@@ -26,8 +26,8 @@ a.Leftmenu:hover {COLOR: #000000; TEXT-DECORATION: none;}
     font-size: 20;
     line-height: 18px;
     text-transform: uppercase;
-    font-weight: 900;
-    text-shadow: 0px 1px 0px #ffffff, 0px 3px 1px #000000;}
+    font-weight: 400;
+    text-shadow: 0px 1px 1px #ffffff, 0px 4px 1px #000000;}
 a.indexmenu:link {COLOR: #ffffff; TEXT-DECORATION: none;}
 a.indexmenu:active {COLOR: #ffffff; TEXT-DECORATION: none;}
 a.indexmenu:visited {COLOR: #ffffff; TEXT-DECORATION: none;}
