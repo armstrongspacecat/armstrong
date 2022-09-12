@@ -11,14 +11,27 @@
 }
 .Leftmenu{
     font-family:'Romochka';
-    font-size: 16;
+    font-size: 18;
+    line-height: 18px;
     text-transform: uppercase;
-    font-weight: 600;
-    text-shadow: 0px 2px 1px #000000;}
+    font-weight: 900;
+    text-shadow: 0px 1px 1px #000000;}
 a.Leftmenu:link {COLOR: #ffffff; TEXT-DECORATION: none;}
-a.Leftmenu:active {COLOR: #FF8800; TEXT-DECORATION: underline;}
-a.Leftmenu:visited {COLOR: #FF8800; TEXT-DECORATION: underline;}
-a.Leftmenu:hover {COLOR: #FF8800; TEXT-DECORATION: underline;}
+a.Leftmenu:active {COLOR: #FF8800; TEXT-DECORATION: none;}
+a.Leftmenu:visited {COLOR: #ffffff; TEXT-DECORATION: none;}
+a.Leftmenu:hover {COLOR: #000000; TEXT-DECORATION: none;}
+
+.indexmenu{
+    font-family:'Romochka';
+    font-size: 20;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 0px 1px 0px #ffffff, 0px 3px 1px #000000;}
+a.indexmenu:link {COLOR: #ffffff; TEXT-DECORATION: none;}
+a.indexmenu:active {COLOR: #ffffff; TEXT-DECORATION: none;}
+a.indexmenu:visited {COLOR: #ffffff; TEXT-DECORATION: none;}
+a.indexmenu:hover {COLOR: #ffffff; TEXT-DECORATION: none; text-shadow: 2px 2px 0px #ff0000}
 
 .text--glitch {
   margin: 0;
